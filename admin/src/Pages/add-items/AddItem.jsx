@@ -30,7 +30,7 @@ const AddItem = () => {
     formData.append("price",data.price)
     formData.append("category",data.category)
     formData.append("image",image)
-    let url = 'http://localhost:5000'
+    let url = 'https://food-del-nwqb.onrender.com'
     const response = await axios.post(`${url}/api/food/create/addFood`,formData);
 
     console.log(response.data['messType'])
