@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import axios from "axios"
 const ListItem = () => {
 
-  const url = `http://localhost:5000`
+  const url = `https://food-del-nwqb.onrender.com`
   const [list,setList] = useState([]);
 
   const fetchList = async () =>{
