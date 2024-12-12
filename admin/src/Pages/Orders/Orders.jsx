@@ -6,7 +6,7 @@ import axios from "axios"
 import {assets} from '../../assets/assets'
 const Orders = () => {
 
-  const url = `http://localhost:5000`
+  const url = `https://food-del-nwqb.onrender.com`
   const [getAllData,setAllData] = useState([])
 
   const fetchAllOrders = async () =>{
